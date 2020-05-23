@@ -1,0 +1,10 @@
+// Styles are encapsuled in the Shadow DOM
+
+:host {
+    display: block;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
