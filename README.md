@@ -7,6 +7,8 @@ More about Web components & custom elements:
 * [javascript.info](https://javascript.info/web-components)
 * [MDN](https://developer.mozilla.org/fr/docs/Web/Web_Components/Using_custom_elements)
 
+Demonstration repo: [here](https://github.com/GregoryAlbouy/webcomponents-framework-demo.git)
+
 ## About
 
 This project is the continuation of my [webcomponents boilerplate](https://github.com/GregoryAlbouy/webcomponents-boilerplate) in vanilla JavaScript.
