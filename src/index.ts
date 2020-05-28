@@ -5,4 +5,4 @@
 import './index.scss'
 import { AppRoot } from './components/components'
 
-export { AppRoot }
+document.body.appendChild(new AppRoot())
