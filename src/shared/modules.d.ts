@@ -38,6 +38,11 @@ declare module '*.html' {
     export default value
 }
 
+declare module '*.json' {
+    const value: any
+    export default value
+}
+
 declare module 'ebuilder-js' {
     const value: any
     export default value

@@ -6,7 +6,4 @@ import { Component, BaseComponent } from '../../../components/components'
     tagname: 'test-component',
     template: { html: HTML_STR, css: CSS_STR }
 })
-export default class TestComponent extends BaseComponent
-{
-    
-}
+export default class TestComponent extends BaseComponent {}

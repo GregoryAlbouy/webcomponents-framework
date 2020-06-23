@@ -35,7 +35,6 @@ It comes with prepared configurations of:
 * Babel
 * PostCSS
 
-
 ## Get started
 
 ### Installation
@@ -53,8 +52,9 @@ npm i
 * `npm start` runs the dev-server in development mode with HMR on `localhost:9999`. Default port can be changed in `/.config/webpack.dev.js`
 * `npm test` runs the dev-server with `index.test.ts` as entry point on `localhost:9998`. Default port can be changed in `/.config/webpack.test.js`
 * `npm run watch` watches files in development and compiles the output into `/dist/` directory
-* `npm run dev` compiles files once in development mode into `/dist/` directory
-* `npm run prod` compiles the files once in production mode into `/dist/` directory
+* `npm run build:dev` compiles files once in development mode into `/dist/` directory
+* `npm run build:prod` compiles the files once in production mode into `/dist/` directory
+* `npm run build:test` compiles the files once with test config into `/dist/` directory
 
 ### Create new component
 
@@ -104,7 +104,5 @@ The logics remains in the component's `.ts` file.
 
 ## Todo
 
-* Implement a custom html parser (in progress)
 * Gather internal dependencies in a npm package
-* Allow various configurations (no-ts, no-css, ...)
-* Allow components without shadow root
+* Provide practical examples in a separate repo

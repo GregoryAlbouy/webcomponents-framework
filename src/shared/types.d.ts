@@ -10,3 +10,5 @@ type EventTuple = [
 ]
 type StringObject = { [key: string]: string }
 type TemplateObject = { html: string, css: string }
+type ComponentProps = { [key: string]: any }
+// type ComponentRefs = { [key: string]: Element }
